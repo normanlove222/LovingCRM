@@ -12,3 +12,4 @@ config.php
 *.log
 *.sh
 c1_test.php
+*.bat
