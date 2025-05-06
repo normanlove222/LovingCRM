@@ -1,0 +1,18 @@
+{
+    "name": "norman/loving-crm",
+    "description": "The CRM Humanity Deserves",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "norman",
+            "email": "steelpulsefan@gmail.com"
+        }
+    ],
+    "require": {
+        "sendgrid/sendgrid": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}

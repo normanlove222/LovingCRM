@@ -1,0 +1,14 @@
+*-bak.php
+*.txt
+c1.php
+*.sql
+*.log
+.env
+/vendor/
+/vendor
+template.php
+*.csv
+config.php
+*.log
+*.sh
+c1_test.php

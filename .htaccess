@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect all requests to track_emails.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ track_emails.php [QSA,L]

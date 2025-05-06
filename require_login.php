@@ -1,0 +1,7 @@
+<?php 
+if (!isset($_SESSION['user_id'])) {
+    header('Location: login.php');
+}
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}

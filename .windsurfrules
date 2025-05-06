@@ -1,0 +1,9 @@
+1. I code in LAMP locally and remotely.
+2. I code in plain PHP and HTML, CSS, JS, and Bootstrap. I don't use a framework like Larvel
+3. I use Git for version control.
+4. I use SendGrid for email delivery.
+5. My local development is a windows 10 machine running WAMP server.
+6. I push to my remote hosting via filezilla SFTP manually. 
+7 always assume I have a $pdo connection to MYSQL PDO which is created in init.php
+8 always assume I have a $environment variable set to the environment of the app
+9 always assume I have a $config array set to the config.php file
